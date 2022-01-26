@@ -1,4 +1,4 @@
-package com.huskerdev.mio.speedometer
+package com.huskerdev.nioex.speedometer
 
 import kotlin.math.pow
 import kotlin.math.roundToInt

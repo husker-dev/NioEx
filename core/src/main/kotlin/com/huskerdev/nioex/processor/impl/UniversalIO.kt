@@ -1,7 +1,7 @@
-package com.huskerdev.mio.processor.impl
+package com.huskerdev.nioex.processor.impl
 
-import com.huskerdev.mio.*
-import com.huskerdev.mio.processor.IOProcessor
+import com.huskerdev.nioex.*
+import com.huskerdev.nioex.processor.IOProcessor
 import java.io.*
 import java.net.URL
 import java.net.URLConnection

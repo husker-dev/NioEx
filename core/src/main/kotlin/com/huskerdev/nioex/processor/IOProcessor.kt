@@ -1,7 +1,7 @@
-package com.huskerdev.mio.processor
+package com.huskerdev.nioex.processor
 
-import com.huskerdev.mio.*
-import com.huskerdev.mio.speedometer.Speedometer
+import com.huskerdev.nioex.*
+import com.huskerdev.nioex.speedometer.Speedometer
 import java.io.File
 import java.net.URL
 import java.util.zip.ZipEntry

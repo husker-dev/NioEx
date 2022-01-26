@@ -1,7 +1,7 @@
-package com.huskerdev.mio.speedometer
+package com.huskerdev.nioex.speedometer
 
-import com.huskerdev.mio.ZipEvent
-import com.huskerdev.mio.ZipEventHandler
+import com.huskerdev.nioex.ZipEvent
+import com.huskerdev.nioex.ZipEventHandler
 import java.io.File
 import java.util.zip.ZipEntry
 

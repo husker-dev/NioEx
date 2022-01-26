@@ -1,7 +1,7 @@
-package com.huskerdev.mio.speedometer
+package com.huskerdev.nioex.speedometer
 
-import com.huskerdev.mio.CopyingEvent
-import com.huskerdev.mio.CopyingEventHandler
+import com.huskerdev.nioex.CopyingEvent
+import com.huskerdev.nioex.CopyingEventHandler
 import java.io.File
 
 class CopyingSpeedometer(): Speedometer(), CopyingEventHandler {

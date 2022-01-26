@@ -1,9 +1,9 @@
-package com.huskerdev.mio
+package com.huskerdev.nioex
 
-import com.huskerdev.mio.processor.impl.LinuxIO
-import com.huskerdev.mio.processor.impl.MacIO
-import com.huskerdev.mio.processor.impl.UniversalIO
-import com.huskerdev.mio.processor.impl.WinIO
+import com.huskerdev.nioex.processor.impl.LinuxIO
+import com.huskerdev.nioex.processor.impl.MacIO
+import com.huskerdev.nioex.processor.impl.UniversalIO
+import com.huskerdev.nioex.processor.impl.WinIO
 import java.io.File
 import java.net.URL
 import java.nio.file.Files
