@@ -1,0 +1,22 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets{
+    examples {
+        resources { srcDirs "src/examples/resources" }
+        java {
+            srcDirs 'src/examples/kotlin'
+            compileClasspath += sourceSets.main.runtimeClasspath + sourceSets.main.compileClasspath
+            runtimeClasspath += sourceSets.main.runtimeClasspath + sourceSets.main.compileClasspath
+        }
+    }
+}
+
+dependencies {
+
+}

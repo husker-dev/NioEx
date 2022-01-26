@@ -1,0 +1,3 @@
+rootProject.name = 'mio'
+include 'native'
+include 'core'
