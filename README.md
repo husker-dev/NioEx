@@ -1,5 +1,10 @@
 # NioEx
 
+<a href="LICENSE"><img src="https://img.shields.io/github/license/husker-dev/NioEx?style=flat-square"></a>
+<a href="https://jitpack.io/#husker-dev/NioEx"><img src="https://img.shields.io/jitpack/v/github/husker-dev/NioEx?style=flat-square"></a>
+<a href="https://github.com/husker-dev/NioEx/releases/latest"><img src="https://img.shields.io/github/v/release/husker-dev/NioEx?style=flat-square"></a>
+
+
 Advanced I/O usage in Kotlin
 
 # Features
