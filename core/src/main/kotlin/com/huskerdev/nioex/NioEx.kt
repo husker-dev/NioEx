@@ -1,9 +1,9 @@
 package com.huskerdev.nioex
 
-import com.huskerdev.nioex.processor.impl.LinuxIO
-import com.huskerdev.nioex.processor.impl.MacIO
-import com.huskerdev.nioex.processor.impl.UniversalIO
-import com.huskerdev.nioex.processor.impl.WinIO
+import com.huskerdev.nioex.processor.LinuxIO
+import com.huskerdev.nioex.processor.MacIO
+import com.huskerdev.nioex.processor.UniversalIO
+import com.huskerdev.nioex.processor.WinIO
 import java.io.File
 import java.net.URL
 import java.nio.file.Files
@@ -116,7 +116,7 @@ fun Array<File>.zipTo(
 /*
     unzipTo
  */
-fun File.unzipTo(
+fun File.unzipToFolder(
     target: File,
     handler: ZipEventHandler? = null
 ) = processor.unzipFile(this, target, { true }, handler)
@@ -124,7 +124,7 @@ fun File.unzipTo(
 /*
     unzipFilteredTo
  */
-fun File.unzipFilteredTo(
+fun File.unzipFilteredToFolder(
     target: File,
     filter: (ZipEntry) -> Boolean,
     handler: ZipEventHandler? = null
