@@ -14,6 +14,7 @@ Advanced I/O usage in Kotlin
 - Unzipping
 - Copying
 - Downloading from URL
+- > OS acceleration (in future)
 
 ## Examples
 
